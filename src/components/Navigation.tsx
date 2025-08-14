@@ -1,9 +1,13 @@
 import { useState } from 'react';
-import { Menu, X, Phone, FileText } from 'lucide-react';
+import { Menu, X, Phone, Sun, Moon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useTheme } from '@/components/theme-provider';
+import logoDark from '@/assets/logo-dark.png';
+import logoLight from '@/assets/logo-light.png';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { theme, setTheme } = useTheme();
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -13,16 +17,21 @@ const Navigation = () => {
     }
   };
 
+  const toggleTheme = () => {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+  };
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-md border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <FileText className="w-6 h-6 text-primary-foreground" />
-            </div>
-            <span className="text-xl font-bold text-primary">ND</span>
+          <div className="flex items-center space-x-3">
+            <img 
+              src={theme === 'dark' ? logoLight : logoDark} 
+              alt="Naeem Documentation Logo" 
+              className="w-12 h-12 object-contain"
+            />
           </div>
 
           {/* Desktop Navigation */}
@@ -51,6 +60,14 @@ const Navigation = () => {
             >
               CONTACT
             </button>
+            <Button 
+              onClick={toggleTheme}
+              variant="outline" 
+              size="sm"
+              className="border-border hover:bg-surface"
+            >
+              {theme === 'dark' ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+            </Button>
             <Button variant="default" className="bg-gradient-primary hover:opacity-90 transition-opacity">
               <Phone className="w-4 h-4 mr-2" />
               ORDER NOW
@@ -96,6 +113,24 @@ const Navigation = () => {
               >
                 CONTACT
               </button>
+              <Button 
+                onClick={toggleTheme}
+                variant="outline" 
+                size="sm"
+                className="border-border hover:bg-surface w-full"
+              >
+                {theme === 'dark' ? (
+                  <>
+                    <Sun className="w-4 h-4 mr-2" />
+                    Light Mode
+                  </>
+                ) : (
+                  <>
+                    <Moon className="w-4 h-4 mr-2" />
+                    Dark Mode
+                  </>
+                )}
+              </Button>
               <Button variant="default" className="bg-gradient-primary hover:opacity-90 w-full">
                 <Phone className="w-4 h-4 mr-2" />
                 ORDER NOW

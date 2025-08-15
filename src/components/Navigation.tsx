@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { Menu, X, Phone, Sun, Moon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTheme } from '@/components/theme-provider';
-import logoDark from '@/assets/logo-dark.png';
-import logoLight from '@/assets/logo-light.png';
+const logoDark = '/lovable-uploads/3883b303-4b16-4325-8edc-d210e9b01ca6.png';
+const logoLight = '/lovable-uploads/52e798bb-b7ce-4fd9-bdc4-776a634bbf77.png';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,7 +30,7 @@ const Navigation = () => {
             <img 
               src={theme === 'dark' ? logoLight : logoDark} 
               alt="Naeem Documentation Logo" 
-              className="w-12 h-12 object-contain"
+              className="w-12 h-12 rounded-full object-cover"
             />
           </div>
 

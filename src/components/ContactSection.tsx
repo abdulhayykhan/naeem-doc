@@ -51,7 +51,7 @@ const ContactSection = () => {
             <div className="bg-card rounded-xl p-8 shadow-card border border-border/50">
               <h3 className="text-2xl font-bold text-text-primary mb-6 flex items-center">
                 <MapPin className="w-6 h-6 text-primary mr-3" />
-                Visit Our Office
+                Visit Our Shop
               </h3>
               
               <div className="space-y-6">
@@ -96,7 +96,7 @@ const ContactSection = () => {
                     <h4 className="font-semibold text-text-primary mb-1">Working Hours</h4>
                     <p className="text-text-secondary">
                       Monday to Sunday<br />
-                      9:00 AM - 8:00 PM
+                      8:00 AM - 11:59 PM
                     </p>
                   </div>
                 </div>

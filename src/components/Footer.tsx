@@ -110,17 +110,32 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-text-secondary text-sm">
+            <div className="text-text-secondary text-sm text-center md:text-left">
               © {currentYear} Naeem Documentation. All rights reserved.
             </div>
             
-            <div className="flex items-center space-x-6 text-sm text-text-secondary">
+            <div className="flex flex-wrap items-center justify-center space-x-2 sm:space-x-6 text-xs sm:text-sm text-text-secondary">
               <span>24/7 Power Backup</span>
-              <span>•</span>
+              <span className="hidden sm:inline">•</span>
               <span>Quality Assured</span>
-              <span>•</span>
+              <span className="hidden sm:inline">•</span>
               <span>Professional Service</span>
             </div>
+          </div>
+          
+          {/* Developer Credit */}
+          <div className="text-center mt-6 pt-6 border-t border-border/50">
+            <p className="text-text-secondary text-sm">
+              Made with ❤️ by{' '}
+              <a 
+                href="https://www.linkedin.com/in/abdul-hayy-khan/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary/80 transition-colors duration-300 font-medium"
+              >
+                Abdul Hayy Khan
+              </a>
+            </p>
           </div>
         </div>
       </div>

@@ -23,36 +23,40 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <div className="slide-in-left">
-          <h1 className="text-5xl sm:text-6xl lg:text-8xl font-bold mb-6 hero-text">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-bold mb-4 sm:mb-6 hero-text leading-tight">
             NAEEM DOCUMENTATION
           </h1>
-          <p className="text-xl sm:text-2xl lg:text-3xl text-text-secondary mb-8 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-text-secondary mb-6 sm:mb-8 max-w-3xl mx-auto px-4">
             Your one-stop shop for all your documentation and printing needs.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-8 sm:mb-12 px-4">
             <Button 
               onClick={scrollToContact}
               size="lg" 
-              className="bg-gradient-primary hover:opacity-90 shadow-primary text-lg px-8 py-6 glow-primary"
+              className="bg-gradient-primary hover:opacity-90 shadow-primary text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 glow-primary w-full sm:w-auto"
             >
               GET A QUOTE
-              <ArrowRight className="w-5 h-5 ml-2" />
+              <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5 ml-2" />
             </Button>
             <Button 
               onClick={scrollToContact}
               size="lg" 
               variant="outline" 
-              className="border-accent text-accent hover:bg-accent hover:text-accent-foreground text-lg px-8 py-6"
+              className="border-accent text-accent hover:bg-accent hover:text-accent-foreground text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 w-full sm:w-auto"
             >
               ORDER NOW
             </Button>
           </div>
 
-          <div className="flex items-center justify-center space-x-2 text-accent font-semibold text-lg float">
-            <Zap className="w-6 h-6" />
-            <span>24/7 POWER BACKUP - NO EXTRA CHARGES</span>
-            <Zap className="w-6 h-6" />
+          <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-2 text-accent font-semibold text-sm sm:text-base lg:text-lg float px-4 text-center">
+            <div className="flex items-center space-x-2">
+              <Zap className="w-5 sm:w-6 h-5 sm:h-6" />
+              <span className="whitespace-nowrap">24/7 POWER BACKUP</span>
+            </div>
+            <span className="hidden sm:inline">-</span>
+            <span className="whitespace-nowrap">NO EXTRA CHARGES</span>
+            <Zap className="w-5 sm:w-6 h-5 sm:h-6" />
           </div>
         </div>
       </div>

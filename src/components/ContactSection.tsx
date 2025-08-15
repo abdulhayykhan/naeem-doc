@@ -104,21 +104,21 @@ const ContactSection = () => {
             </div>
 
             {/* Action Buttons */}
-            <div className="grid sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
               <Button 
                 onClick={handlePhoneCall}
-                className="bg-gradient-primary hover:opacity-90 shadow-primary h-14 text-lg"
+                className="bg-gradient-primary hover:opacity-90 shadow-primary h-12 sm:h-14 text-base sm:text-lg"
               >
-                <Phone className="w-5 h-5 mr-2" />
+                <Phone className="w-4 sm:w-5 h-4 sm:h-5 mr-2" />
                 Call Now
               </Button>
               
               <Button 
                 onClick={handleEmail}
                 variant="outline"
-                className="border-accent text-accent hover:bg-accent hover:text-accent-foreground h-14 text-lg"
+                className="border-accent text-accent hover:bg-accent hover:text-accent-foreground h-12 sm:h-14 text-base sm:text-lg"
               >
-                <Mail className="w-5 h-5 mr-2" />
+                <Mail className="w-4 sm:w-5 h-4 sm:h-5 mr-2" />
                 Send Email
               </Button>
             </div>
@@ -144,9 +144,9 @@ const ContactSection = () => {
 
                 <Button 
                   onClick={handleWhatsApp}
-                  className="w-full bg-success hover:bg-success/90 h-12"
+                  className="w-full bg-success hover:bg-success/90 h-11 sm:h-12 text-sm sm:text-base"
                 >
-                  <MessageSquare className="w-5 h-5 mr-2" />
+                  <MessageSquare className="w-4 sm:w-5 h-4 sm:h-5 mr-2" />
                   WhatsApp for Quick Quote
                 </Button>
               </div>

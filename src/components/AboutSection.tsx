@@ -34,22 +34,22 @@ const AboutSection = () => {
             </div>
 
             {/* Key Features */}
-            <div className="grid sm:grid-cols-2 gap-4 mt-8">
-              <div className="flex items-center space-x-3 p-4 bg-surface rounded-lg">
-                <MapPin className="w-6 h-6 text-primary" />
-                <span className="text-text-primary font-medium">Strategic Location</span>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mt-8">
+              <div className="flex items-center space-x-3 p-3 sm:p-4 bg-surface rounded-lg">
+                <MapPin className="w-5 sm:w-6 h-5 sm:h-6 text-primary flex-shrink-0" />
+                <span className="text-text-primary font-medium text-sm sm:text-base">Strategic Location</span>
               </div>
-              <div className="flex items-center space-x-3 p-4 bg-surface rounded-lg">
-                <Clock className="w-6 h-6 text-accent" />
-                <span className="text-text-primary font-medium">Extended Hours</span>
+              <div className="flex items-center space-x-3 p-3 sm:p-4 bg-surface rounded-lg">
+                <Clock className="w-5 sm:w-6 h-5 sm:h-6 text-accent flex-shrink-0" />
+                <span className="text-text-primary font-medium text-sm sm:text-base">Extended Hours</span>
               </div>
-              <div className="flex items-center space-x-3 p-4 bg-surface rounded-lg">
-                <Shield className="w-6 h-6 text-success" />
-                <span className="text-text-primary font-medium">Quality Assured</span>
+              <div className="flex items-center space-x-3 p-3 sm:p-4 bg-surface rounded-lg">
+                <Shield className="w-5 sm:w-6 h-5 sm:h-6 text-success flex-shrink-0" />
+                <span className="text-text-primary font-medium text-sm sm:text-base">Quality Assured</span>
               </div>
-              <div className="flex items-center space-x-3 p-4 bg-surface rounded-lg">
-                <Shield className="w-6 h-6 text-primary" />
-                <span className="text-text-primary font-medium">Power Backup</span>
+              <div className="flex items-center space-x-3 p-3 sm:p-4 bg-surface rounded-lg">
+                <Shield className="w-5 sm:w-6 h-5 sm:h-6 text-primary flex-shrink-0" />
+                <span className="text-text-primary font-medium text-sm sm:text-base">Power Backup</span>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ const AboutSection = () => {
             GALLERY
           </h3>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-8">
             {/* Gallery Placeholders */}
             {[1, 2, 3, 4].map((item) => (
               <div
@@ -81,13 +81,13 @@ const AboutSection = () => {
               >
                 <div className="w-full h-full bg-gradient-surface flex items-center justify-center">
                   {item === 2 ? (
-                    <Play className="w-12 h-12 text-primary" />
+                    <Play className="w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 text-primary" />
                   ) : (
-                    <Image className="w-12 h-12 text-text-muted" />
+                    <Image className="w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 text-text-muted" />
                   )}
                 </div>
                 <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <span className="text-white font-semibold">
+                  <span className="text-white font-semibold text-xs sm:text-sm">
                     {item === 2 ? 'Video' : 'Photo'}
                   </span>
                 </div>

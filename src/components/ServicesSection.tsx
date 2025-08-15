@@ -311,6 +311,121 @@ const ServicesSection = () => {
           </Button>
         </div>
 
+        {/* Complete Documentation Services */}
+        <div className="mt-16 bg-card rounded-2xl p-8 sm:p-12 shadow-card animate-slide-in-up">
+          <h3 className="text-3xl sm:text-4xl font-bold text-center text-text-primary mb-12">
+            Complete Documentation Services
+          </h3>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Legal Documentation */}
+            <div className="space-y-6">
+              <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">
+                Legal Documentation:
+              </h4>
+              <ul className="space-y-3">
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Domicile & P.R.C</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Affidavits (Zakat & Widow)</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Undertaking Documents</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Sale & Rent Agreements</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Birth Certificates</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <span>NADRA Computerized Nikah Nama</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* NADRA Services */}
+            <div className="space-y-6">
+              <h4 className="text-xl font-bold text-accent mb-4 border-b border-accent/20 pb-2">
+                NADRA Services:
+              </h4>
+              <ul className="space-y-3">
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <span>E-Sahulat Services</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <span>ID Card Services</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Family Registration Certificate</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Biometric Verification</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Character Certificate</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Computerized Nikah Nama</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Printing & Binding */}
+            <div className="space-y-6">
+              <h4 className="text-xl font-bold text-success mb-4 border-b border-success/20 pb-2">
+                Printing & Binding:
+              </h4>
+              <ul className="space-y-3">
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-success rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Laser Copy (Black & Color)</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-success rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Photo Printing (All Sizes)</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-success rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Document Scanning</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-success rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Wiro & Comb Binding</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-success rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Lamination Services</span>
+                </li>
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-success rounded-full mt-2 flex-shrink-0"></div>
+                  <span>PVC Card Printing</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Bottom tagline */}
+          <div className="text-center mt-12 pt-8 border-t border-border">
+            <p className="text-lg font-semibold text-text-primary">
+              Professional Documentation Services Since 2010 • 24/7 Power Backup • No Extra Charges
+            </p>
+          </div>
+        </div>
+
         {/* Service Highlights */}
         <div className="mt-16 grid md:grid-cols-3 gap-6">
           <div className="text-center p-6 bg-primary/5 rounded-xl border border-primary/20 animate-fade-in">

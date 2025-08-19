@@ -103,6 +103,27 @@ const ContactSection = () => {
               </div>
             </div>
 
+            {/* Google Maps */}
+            <div className="bg-card rounded-xl p-8 shadow-card border border-border/50">
+              <h3 className="text-2xl font-bold text-text-primary mb-6 flex items-center">
+                <MapPin className="w-6 h-6 text-primary mr-3" />
+                Find Us on Map
+              </h3>
+              
+              <div className="w-full h-64 sm:h-80 rounded-lg overflow-hidden border border-border/50">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.8174389892643!2d67.0892574!3d24.8607744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e9d2b2b2b2b%3A0x2b2b2b2b2b2b2b2b!2sShah%20Faisal%20Colony%20No.%203%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="w-full h-full"
+                ></iframe>
+              </div>
+            </div>
+
             {/* Action Buttons */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
               <Button 

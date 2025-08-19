@@ -112,7 +112,7 @@ const ContactSection = () => {
               
               <div className="w-full h-64 sm:h-80 rounded-lg overflow-hidden border border-border/50">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.8174389892643!2d67.0892574!3d24.8607744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e9d2b2b2b2b%3A0x2b2b2b2b2b2b2b2b!2sShah%20Faisal%20Colony%20No.%203%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s"
+                  src="https://maps.app.goo.gl/Ej58qwnAhgVa2B3A7"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

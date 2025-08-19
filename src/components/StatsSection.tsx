@@ -3,31 +3,31 @@ import { Users, Calendar, FileText, Briefcase, Settings, Zap } from 'lucide-reac
 const stats = [
   {
     icon: Users,
-    number: '10,000+',
+    number: '100K+',
     label: 'Customers Served',
     description: 'Happy clients trust our services'
   },
   {
     icon: Calendar,
-    number: '05+',
+    number: '15+',
     label: 'Successful Years',
     description: 'Years of dedicated service'
   },
   {
     icon: FileText,
-    number: '500K+',
+    number: '50M+',
     label: 'Documents Printed',
     description: 'High-quality documentation'
   },
   {
     icon: Briefcase,
-    number: '1000+',
+    number: '50K+',
     label: 'Projects Completed',
     description: 'Successfully delivered projects'
   },
   {
     icon: Settings,
-    number: '20+',
+    number: '100+',
     label: 'Professional Services',
     description: 'Comprehensive service range'
   },

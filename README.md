@@ -4,7 +4,7 @@ A modern, responsive business website for Naeem Documentation Services - providi
 
 ## 🌟 Live Demo
 
-**URL**: [https://lovable.dev/projects/3f412573-8709-4af7-b0cf-0be96982b883](https://lovable.dev/projects/3f412573-8709-4af7-b0cf-0be96982b883)
+**URL**: [https://naeem-doc.lovable.app](https://naeem-doc.lovable.app)
 
 ## 📋 Table of Contents
 

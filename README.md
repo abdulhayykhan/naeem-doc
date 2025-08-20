@@ -248,7 +248,7 @@ No environment variables are required for basic functionality.
 - **Phone**: +92 315 8157721
 - **Email**: naeemdocumentation@gmail.com
 - **WhatsApp**: Direct contact via floating widget
-- **Hours**: Monday to Sunday, 08:00 AM - 02:00 PM
+- **Hours**: Monday to Sunday, 08:00 AM - 02:00 AM
 
 ## 🤝 Contributing
 
@@ -262,7 +262,7 @@ This is a business website for Naeem Documentation. For updates or modifications
 
 The **website and content** belong to **Naeem Documentation**.  
 The **codebase and repository** are maintained by [**Abdul Hayy Khan**](https://www.linkedin.com/in/abdul-hayy-khan/). 
-> *“Working with the **Lovable Platform** was an amazing experience! 🚀  
+> *“Working with the **Lovable** was an amazing experience! 🚀  
 It simplified deployment, provided a clean developer workflow, and allowed me to focus on building a beautiful and functional site for Naeem Documentation.  
 Highly recommend Lovable to developers who want speed, simplicity, and professional results.”*  
 

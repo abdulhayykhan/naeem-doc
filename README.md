@@ -1,73 +1,273 @@
-# Welcome to your Lovable project
+# Naeem Documentation Services
 
-## Project info
+A modern, responsive business website for Naeem Documentation Services - providing comprehensive documentation, legal services, and NADRA services in Pakistan.
 
-**URL**: https://lovable.dev/projects/3f412573-8709-4af7-b0cf-0be96982b883
+## 🌟 Live Demo
 
-## How can I edit this code?
+**URL**: [https://lovable.dev/projects/3f412573-8709-4af7-b0cf-0be96982b883](https://lovable.dev/projects/3f412573-8709-4af7-b0cf-0be96982b883)
 
-There are several ways of editing your application.
+## 📋 Table of Contents
 
-**Use Lovable**
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Components Overview](#components-overview)
+- [Styling & Design System](#styling--design-system)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3f412573-8709-4af7-b0cf-0be96982b883) and start prompting.
+## 🎯 Overview
 
-Changes made via Lovable will be committed automatically to this repo.
+Naeem Documentation Services is a professional business website that showcases comprehensive documentation and legal services. The website features a modern dark theme design with smooth animations, responsive layout, and integrated contact functionality including WhatsApp support and Google Maps integration.
 
-**Use your preferred IDE**
+### Services Offered
+- **Legal Documentation**: Property documents, legal agreements, contracts
+- **NADRA Services**: CNIC, passport, family registration certificates
+- **Printing & Binding**: Professional document printing and binding services
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✨ Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🎨 Design & UI
+- **Modern Dark Theme**: Professional dark mode design with gradient accents
+- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
+- **Smooth Animations**: CSS animations and transitions for enhanced UX
+- **Component-Based Architecture**: Modular and reusable React components
 
-Follow these steps:
+### 📱 Interactive Elements
+- **Floating WhatsApp Widget**: Direct contact via WhatsApp
+- **Google Maps Integration**: Embedded location map in contact section
+- **Statistics Counter**: Dynamic statistics display
+- **Service Gallery**: Visual showcase of services offered
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🛠 Technical Features
+- **TypeScript Support**: Full type safety and better development experience
+- **Modern Build Tools**: Vite for fast development and optimized builds
+- **Component Library**: shadcn/ui for consistent UI components
+- **Responsive Design**: Tailwind CSS for efficient styling
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Frontend Framework
+- **React 18.3.1** - Modern React with hooks and functional components
+- **TypeScript** - Type-safe JavaScript development
+- **Vite** - Fast build tool and development server
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Styling & UI
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - High-quality, accessible component library
+- **Lucide React** - Beautiful icon library
+- **CSS Custom Properties** - Design system with semantic color tokens
+
+### State Management & Data
+- **TanStack React Query 5.83.0** - Server state management
+- **React Hook Form 7.61.1** - Form handling and validation
+- **Zod 3.25.76** - Schema validation
+
+### Routing & Navigation
+- **React Router DOM 6.30.1** - Client-side routing
+
+### Development Tools
+- **ESLint** - Code linting and style enforcement
+- **Class Variance Authority** - Component variant management
+- **clsx & tailwind-merge** - Conditional class name utilities
+
+### Additional Libraries
+- **Embla Carousel** - Touch-friendly carousel component
+- **Recharts** - Chart and data visualization
+- **React Day Picker** - Date picker component
+- **Sonner** - Toast notifications
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── ui/                    # shadcn/ui base components
+│   │   ├── button.tsx
+│   │   ├── card.tsx
+│   │   ├── input.tsx
+│   │   └── ...
+│   ├── AboutSection.tsx       # About company section
+│   ├── ContactSection.tsx     # Contact form with map
+│   ├── Footer.tsx            # Website footer
+│   ├── HeroSection.tsx       # Main hero section
+│   ├── Navigation.tsx        # Header navigation
+│   ├── ServicesSection.tsx   # Services showcase
+│   ├── StatsSection.tsx      # Statistics display
+│   ├── WhatsAppWidget.tsx    # Floating WhatsApp button
+│   └── theme-provider.tsx    # Theme context provider
+├── pages/
+│   ├── Index.tsx            # Main landing page
+│   └── NotFound.tsx         # 404 error page
+├── hooks/
+│   ├── use-mobile.tsx       # Mobile detection hook
+│   └── use-toast.ts         # Toast notification hook
+├── lib/
+│   └── utils.ts             # Utility functions
+├── assets/                  # Static images and media
+├── App.tsx                  # Root application component
+├── main.tsx                 # Application entry point
+└── index.css               # Global styles and CSS variables
 ```
 
-**Edit a file directly in GitHub**
+## 🛠 Getting Started
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Prerequisites
+- **Node.js** (v16 or higher)
+- **npm** or **yarn** package manager
 
-**Use GitHub Codespaces**
+### Installation
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. **Clone the repository**
+   ```bash
+   git clone <YOUR_GIT_URL>
+   cd <YOUR_PROJECT_NAME>
+   ```
 
-## What technologies are used for this project?
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-This project is built with:
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+4. **Open your browser**
+   Navigate to `http://localhost:8080`
 
-## How can I deploy this project?
+### Available Scripts
 
-Simply open [Lovable](https://lovable.dev/projects/3f412573-8709-4af7-b0cf-0be96982b883) and click on Share -> Publish.
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run preview      # Preview production build
+npm run lint         # Run ESLint
+```
 
-## Can I connect a custom domain to my Lovable project?
+## 🧩 Components Overview
 
-Yes, you can!
+### Core Sections
+- **HeroSection**: Landing hero with company introduction
+- **AboutSection**: Company background and mission
+- **ServicesSection**: Service offerings with visual cards
+- **StatsSection**: Key business statistics
+- **ContactSection**: Contact form with Google Maps integration
+- **Footer**: Company information and links
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### UI Components
+- **Navigation**: Responsive header with mobile menu
+- **WhatsAppWidget**: Floating contact button
+- **Cards**: Service and feature display cards
+- **Buttons**: Various button styles and variants
+- **Forms**: Contact and input components
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Utility Components
+- **ThemeProvider**: Dark/light theme management
+- **Toaster**: Notification system
+- **Error Boundaries**: Error handling components
+
+## 🎨 Styling & Design System
+
+### Design Tokens
+The project uses a comprehensive design system with semantic color tokens defined in `index.css`:
+
+```css
+:root {
+  --primary: [Primary brand color]
+  --primary-glow: [Primary accent]
+  --accent: [Accent color]
+  --surface: [Surface backgrounds]
+  --text-primary: [Primary text]
+  --text-secondary: [Secondary text]
+  /* ... additional tokens */
+}
+```
+
+### Tailwind Configuration
+- **Custom Colors**: Brand-specific color palette
+- **Typography**: Consistent font scales and spacing
+- **Animations**: Custom keyframes and transitions
+- **Responsive Breakpoints**: Mobile-first design approach
+
+### Component Variants
+- **Button Variants**: Primary, secondary, outline, ghost
+- **Card Styles**: Different elevation and border styles
+- **Text Hierarchy**: Consistent heading and body text styles
+
+## 📱 Responsive Design
+
+The website is fully responsive with breakpoints for:
+- **Mobile**: 320px - 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: 1024px+
+
+Key responsive features:
+- Mobile-optimized navigation menu
+- Flexible grid layouts
+- Scalable typography
+- Touch-friendly interactive elements
+
+## 🌐 Deployment
+
+### Lovable Platform
+1. Click **Publish** in the top right of the Lovable editor
+2. Your site will be deployed automatically
+3. Custom domains can be connected via Project Settings
+
+### Manual Deployment
+```bash
+npm run build        # Build production files
+# Deploy 'dist' folder to your hosting provider
+```
+
+### Supported Platforms
+- **Vercel**: Zero-configuration deployment
+- **Netlify**: Drag-and-drop or Git integration
+- **AWS S3**: Static website hosting
+- **GitHub Pages**: Free hosting for public repos
+
+## 🔧 Configuration
+
+### Environment Variables
+No environment variables are required for basic functionality.
+
+### Customization
+- **Colors**: Modify CSS variables in `index.css`
+- **Typography**: Update Tailwind config in `tailwind.config.ts`
+- **Components**: Customize shadcn/ui components as needed
+- **Content**: Update component text and images
+
+## 📞 Contact Information
+
+**Naeem Documentation Services**
+- **Address**: [Your Business Address]
+- **Phone**: +92 XXX XXXXXXX
+- **Email**: [Your Email]
+- **WhatsApp**: Direct contact via floating widget
+- **Hours**: Monday to Sunday, 08:00 AM - 02:00 PM
+
+## 🤝 Contributing
+
+This is a business website for Naeem Documentation Services. For updates or modifications:
+
+1. **Direct Editing**: Use Lovable platform for quick changes
+2. **Local Development**: Clone repo and make changes locally
+3. **Version Control**: All changes are tracked via Git
+
+## 📄 License
+
+This project is proprietary and belongs to Naeem Documentation Services.
+
+## 🆘 Support
+
+For technical support or questions about the website:
+- **Lovable Documentation**: [https://docs.lovable.dev/](https://docs.lovable.dev/)
+- **Project URL**: [https://lovable.dev/projects/3f412573-8709-4af7-b0cf-0be96982b883](https://lovable.dev/projects/3f412573-8709-4af7-b0cf-0be96982b883)
+
+---
+
+**Built with ❤️ using Lovable Platform**

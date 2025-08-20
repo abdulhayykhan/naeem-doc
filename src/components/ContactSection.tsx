@@ -112,7 +112,7 @@ const ContactSection = () => {
               
               <div className="w-full h-64 sm:h-80 rounded-lg overflow-hidden border border-border/50">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6297.575261013936!2d67.14465256109168!3d24.882733191096577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339006bf92d2b%3A0x73be5bc29adbb61c!2sNaeem%20Documentation!5e0!3m2!1sen!2sus!4v1755570279076!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6297.575261013936!2d67.14465256109168!3d24.882733191096577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339006bf92d2b%3A0x73be5bc29adbb61c!2sNaeem%20Documentation!5e0!3m2!1sen!2sus!4v1755570279076!5m2!1sen!2sus"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

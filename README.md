@@ -1,6 +1,6 @@
-# Naeem Documentation Services
+# Naeem Documentation 
 
-A modern, responsive business website for Naeem Documentation Services - providing comprehensive documentation, legal services, and NADRA services in Pakistan.
+A modern, responsive business website for Naeem Documentation - providing comprehensive printing, documentation, legal services, and NADRA services in Pakistan.
 
 ## 🌟 Live Demo
 
@@ -20,7 +20,7 @@ A modern, responsive business website for Naeem Documentation Services - providi
 
 ## 🎯 Overview
 
-Naeem Documentation Services is a professional business website that showcases comprehensive documentation and legal services. The website features a modern dark theme design with smooth animations, responsive layout, and integrated contact functionality including WhatsApp support and Google Maps integration.
+Naeem Documentation is a professional business website that showcases comprehensive documentation and legal services. The website features a modern dark theme design with smooth animations, responsive layout, and integrated contact functionality including WhatsApp support and Google Maps integration.
 
 ### Services Offered
 - **Legal Documentation**: Property documents, legal agreements, contracts
@@ -243,16 +243,16 @@ No environment variables are required for basic functionality.
 
 ## 📞 Contact Information
 
-**Naeem Documentation Services**
-- **Address**: [Your Business Address]
-- **Phone**: +92 XXX XXXXXXX
-- **Email**: [Your Email]
+**Naeem Documentation**
+- **Address**: Plot No. 3/31-A, Near Red Oven Restaurant, Shah Faisal Colony No. 3, Karachi-75230, Pakistan
+- **Phone**: +92 315 8157721
+- **Email**: naeemdocumentation@gmail.com
 - **WhatsApp**: Direct contact via floating widget
 - **Hours**: Monday to Sunday, 08:00 AM - 02:00 PM
 
 ## 🤝 Contributing
 
-This is a business website for Naeem Documentation Services. For updates or modifications:
+This is a business website for Naeem Documentation. For updates or modifications:
 
 1. **Direct Editing**: Use Lovable platform for quick changes
 2. **Local Development**: Clone repo and make changes locally
@@ -260,7 +260,11 @@ This is a business website for Naeem Documentation Services. For updates or modi
 
 ## 📄 License
 
-This project is proprietary and belongs to Naeem Documentation Services.
+The **website and content** belong to **Naeem Documentation**.  
+The **codebase and repository** are maintained by [**Abdul Hayy Khan**](https://www.linkedin.com/in/abdul-hayy-khan/). 
+> *“Working with the **Lovable Platform** was an amazing experience! 🚀  
+It simplified deployment, provided a clean developer workflow, and allowed me to focus on building a beautiful and functional site for Naeem Documentation.  
+Highly recommend Lovable to developers who want speed, simplicity, and professional results.”*  
 
 ## 🆘 Support
 
@@ -270,4 +274,4 @@ For technical support or questions about the website:
 
 ---
 
-**Built with ❤️ using Lovable Platform**
+**Built with ❤️ using Lovable by Abdul Hayy Khan**

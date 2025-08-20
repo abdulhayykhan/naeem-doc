@@ -122,8 +122,8 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone <YOUR_GIT_URL>
-   cd <YOUR_PROJECT_NAME>
+   git clone https://github.com/naeeem-doc.git
+   cd naeem-doc
    ```
 
 2. **Install dependencies**

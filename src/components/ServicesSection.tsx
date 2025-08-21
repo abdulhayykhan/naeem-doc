@@ -21,13 +21,14 @@ import servicePrinting from '@/assets/service-printing.jpg';
 import serviceLegal from '@/assets/service-legal.jpg';
 import serviceBinding from '@/assets/service-binding.jpg';
 import serviceBiometric from '@/assets/service-biometric.jpg';
+import laserCopyImage from '/lovable-uploads/2cd0bdbd-3853-40a9-8246-8f3f1fb66fd6.png';
 
 const services = [
   {
     id: 'laser-copy',
     title: 'LASER COPY',
     description: 'High-quality black & white laser printing',
-    image: servicePrinting,
+    image: laserCopyImage,
     category: 'printing',
     features: ['Black & White', 'High Quality', 'Fast Service']
   },

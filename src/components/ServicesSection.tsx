@@ -25,6 +25,7 @@ import laserCopyImage from '/lovable-uploads/2cd0bdbd-3853-40a9-8246-8f3f1fb66fd
 import colorPrintingImage from '/lovable-uploads/b9f42417-3cd7-4295-9182-95e9d94e92f4.png';
 import blackPrintingImage from '/lovable-uploads/6b468c78-1289-4c62-91f8-3f20ad38348a.png';
 import documentScanningImage from '/lovable-uploads/661e77d9-e455-4486-acbe-f41ce01856c3.png';
+import passportPhotos from '@/assets/passport-photos.jpg';
 
 const services = [
   {
@@ -71,7 +72,7 @@ const services = [
     id: 'photo-printing',
     title: 'PHOTO PRINTING PASSPORT SIZE TO A3',
     description: 'Photo printing from passport to A3 size',
-    image: servicePrinting,
+    image: passportPhotos,
     category: 'printing',
     features: ['All Sizes', 'High Quality', 'Quick Service']
   },
@@ -108,12 +109,12 @@ const services = [
     features: ['Durable Binding', 'Professional Finish', 'Various Sizes']
   },
   {
-    id: 'domicile',
-    title: 'DOMICILE & P.R.C',
-    description: 'Domicile and PRC document services',
-    image: serviceLegal,
-    category: 'legal',
-    features: ['Government Approved', 'Fast Processing', 'Legal Compliance']
+    id: 'a3-printing',
+    title: 'A3 PRINTING',
+    description: 'Large format A3 printing services',
+    image: servicePrinting,
+    category: 'printing',
+    features: ['Large Format', 'Professional Quality', 'Color & B&W']
   },
   {
     id: 'affidavits',
@@ -330,10 +331,6 @@ const ServicesSection = () => {
               <ul className="space-y-3">
                 <li className="flex items-start space-x-3 text-text-secondary">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Domicile & P.R.C</span>
-                </li>
-                <li className="flex items-start space-x-3 text-text-secondary">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <span>Affidavits (Zakat & Widow)</span>
                 </li>
                 <li className="flex items-start space-x-3 text-text-secondary">
@@ -394,6 +391,10 @@ const ServicesSection = () => {
                 Printing & Binding:
               </h4>
               <ul className="space-y-3">
+                <li className="flex items-start space-x-3 text-text-secondary">
+                  <div className="w-2 h-2 bg-success rounded-full mt-2 flex-shrink-0"></div>
+                  <span>A3 Large Format Printing</span>
+                </li>
                 <li className="flex items-start space-x-3 text-text-secondary">
                   <div className="w-2 h-2 bg-success rounded-full mt-2 flex-shrink-0"></div>
                   <span>Laser Copy (Black & Color)</span>

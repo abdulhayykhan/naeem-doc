@@ -24,6 +24,7 @@ import serviceBiometric from '@/assets/service-biometric.jpg';
 import laserCopyImage from '/lovable-uploads/2cd0bdbd-3853-40a9-8246-8f3f1fb66fd6.png';
 import colorPrintingImage from '/lovable-uploads/b9f42417-3cd7-4295-9182-95e9d94e92f4.png';
 import blackPrintingImage from '/lovable-uploads/6b468c78-1289-4c62-91f8-3f20ad38348a.png';
+import documentScanningImage from '/lovable-uploads/661e77d9-e455-4486-acbe-f41ce01856c3.png';
 
 const services = [
   {
@@ -54,7 +55,7 @@ const services = [
     id: 'document-scanning',
     title: 'DOCUMENTS SCANNING',
     description: 'Digital document conversion services',
-    image: servicePrinting,
+    image: documentScanningImage,
     category: 'printing',
     features: ['High Resolution', 'Digital Format', 'Secure Process']
   },

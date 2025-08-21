@@ -22,6 +22,7 @@ import serviceLegal from '@/assets/service-legal.jpg';
 import serviceBinding from '@/assets/service-binding.jpg';
 import serviceBiometric from '@/assets/service-biometric.jpg';
 import laserCopyImage from '/lovable-uploads/2cd0bdbd-3853-40a9-8246-8f3f1fb66fd6.png';
+import colorPrintingImage from '/lovable-uploads/b9f42417-3cd7-4295-9182-95e9d94e92f4.png';
 
 const services = [
   {
@@ -36,7 +37,7 @@ const services = [
     id: 'color-printing',
     title: 'COLOR LASER PRINTING',
     description: 'Professional color laser printing services',
-    image: servicePrinting,
+    image: colorPrintingImage,
     category: 'printing',
     features: ['Full Color', 'Professional Quality', 'All Sizes']
   },

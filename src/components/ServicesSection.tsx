@@ -23,6 +23,7 @@ import serviceBinding from '@/assets/service-binding.jpg';
 import serviceBiometric from '@/assets/service-biometric.jpg';
 import laserCopyImage from '/lovable-uploads/2cd0bdbd-3853-40a9-8246-8f3f1fb66fd6.png';
 import colorPrintingImage from '/lovable-uploads/b9f42417-3cd7-4295-9182-95e9d94e92f4.png';
+import blackPrintingImage from '/lovable-uploads/6b468c78-1289-4c62-91f8-3f20ad38348a.png';
 
 const services = [
   {
@@ -45,7 +46,7 @@ const services = [
     id: 'black-printing',
     title: 'BLACK LASER PRINTING', 
     description: 'Premium black laser printing solutions',
-    image: servicePrinting,
+    image: blackPrintingImage,
     category: 'printing',
     features: ['Premium Quality', 'Fast Turnaround', 'Bulk Orders']
   },

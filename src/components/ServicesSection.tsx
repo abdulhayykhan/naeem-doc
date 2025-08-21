@@ -26,6 +26,13 @@ import colorPrintingImage from '/lovable-uploads/b9f42417-3cd7-4295-9182-95e9d94
 import blackPrintingImage from '/lovable-uploads/6b468c78-1289-4c62-91f8-3f20ad38348a.png';
 import documentScanningImage from '/lovable-uploads/661e77d9-e455-4486-acbe-f41ce01856c3.png';
 import passportPhotos from '@/assets/passport-photos.jpg';
+import typingServicesImage from '/lovable-uploads/2e03f7f4-d5d9-46c9-88b5-b9fbed6bbe38.png';
+import pvcCardsImage from '/lovable-uploads/4b7cd75f-c8b8-4f27-9de5-59e60349556b.png';
+import a3PrintingImage from '/lovable-uploads/a054be9b-549c-427c-8ef9-d55a47f2f1d0.png';
+import affidavitsImage from '/lovable-uploads/d60e055b-c781-44c4-ab7a-da1407710f24.png';
+import agreementsImage from '/lovable-uploads/ae3ead03-70eb-4e3c-990d-9d2e7fe8c98b.png';
+import birthCertificateImage from '/lovable-uploads/a6500161-63ed-413b-ad8b-dc9da639b14e.png';
+import nikahNamaImage from '/lovable-uploads/781d2197-dd90-40a5-ae46-4392635fd16a.png';
 
 const services = [
   {
@@ -64,7 +71,7 @@ const services = [
     id: 'typing-services',
     title: 'ENGLISH - URDU TYPING',
     description: 'Professional typing in multiple languages',
-    image: serviceLegal,
+    image: typingServicesImage,
     category: 'legal',
     features: ['Multiple Languages', 'Accurate Typing', 'Fast Delivery']
   },
@@ -80,7 +87,7 @@ const services = [
     id: 'pvc-cards',
     title: 'PVC PLASTIC CARDS',
     description: 'Professional PVC card printing services',
-    image: serviceBiometric,
+    image: pvcCardsImage,
     category: 'nadra',
     features: ['Durable Material', 'Professional Design', 'Custom Printing']
   },
@@ -112,7 +119,7 @@ const services = [
     id: 'a3-printing',
     title: 'A3 PRINTING',
     description: 'Large format A3 printing services',
-    image: servicePrinting,
+    image: a3PrintingImage,
     category: 'printing',
     features: ['Large Format', 'Professional Quality', 'Color & B&W']
   },
@@ -120,7 +127,7 @@ const services = [
     id: 'affidavits',
     title: 'AFFIDAVITS (ZAKAT & WIDOW)',
     description: 'Specialized affidavit documentation',
-    image: serviceLegal,
+    image: affidavitsImage,
     category: 'legal',
     features: ['Legal Format', 'Expert Guidance', 'Quick Process']
   },
@@ -128,7 +135,7 @@ const services = [
     id: 'agreements',
     title: 'SALE & RENT AGREEMENTS',
     description: 'Legal agreement documentation',
-    image: serviceLegal,
+    image: agreementsImage,
     category: 'legal',
     features: ['Legal Format', 'Professional Service', 'Secure Documentation']
   },
@@ -136,7 +143,7 @@ const services = [
     id: 'birth-certificates',
     title: 'BIRTH CERTIFICATES',
     description: 'Birth certificate processing services',
-    image: serviceLegal,
+    image: birthCertificateImage,
     category: 'legal',
     features: ['Official Documents', 'Fast Processing', 'Government Approved']
   },
@@ -144,7 +151,7 @@ const services = [
     id: 'nikah-nama',
     title: 'NADRA COMPUTERIZED NIKAH NAMA',
     description: 'Computerized Nikah Nama services',
-    image: serviceBiometric,
+    image: nikahNamaImage,
     category: 'nadra',
     features: ['NADRA Approved', 'Digital Format', 'Official Process']
   },
@@ -365,10 +372,6 @@ const ServicesSection = () => {
                 <li className="flex items-start space-x-3 text-text-secondary">
                   <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
                   <span>ID Card Services</span>
-                </li>
-                <li className="flex items-start space-x-3 text-text-secondary">
-                  <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Family Registration Certificate</span>
                 </li>
                 <li className="flex items-start space-x-3 text-text-secondary">
                   <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>

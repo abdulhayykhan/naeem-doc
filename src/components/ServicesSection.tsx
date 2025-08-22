@@ -19,8 +19,8 @@ import {
 import { Button } from '@/components/ui/button';
 import servicePrinting from '@/assets/service-printing.jpg';
 import serviceLegal from '@/assets/service-legal.jpg';
-import serviceBinding from '@/assets/service-binding.jpg';
 import serviceBiometric from '@/assets/service-biometric.jpg';
+import spiralBindingImage from '/lovable-uploads/spiral-binding.png';
 import laserCopyImage from '/lovable-uploads/2cd0bdbd-3853-40a9-8246-8f3f1fb66fd6.png';
 import colorPrintingImage from '/lovable-uploads/b9f42417-3cd7-4295-9182-95e9d94e92f4.png';
 import blackPrintingImage from '/lovable-uploads/6b468c78-1289-4c62-91f8-3f20ad38348a.png';
@@ -33,6 +33,7 @@ import affidavitsImage from '/lovable-uploads/d60e055b-c781-44c4-ab7a-da1407710f
 import agreementsImage from '/lovable-uploads/ae3ead03-70eb-4e3c-990d-9d2e7fe8c98b.png';
 import birthCertificateImage from '/lovable-uploads/a6500161-63ed-413b-ad8b-dc9da639b14e.png';
 import nikahNamaImage from '/lovable-uploads/781d2197-dd90-40a5-ae46-4392635fd16a.png';
+import keDuplicateBillsImage from '/lovable-uploads/ke-duplicate-bills.png';
 
 const services = [
   {
@@ -108,10 +109,10 @@ const services = [
     features: ['NADRA Certified', 'Secure Process', 'Instant Verification']
   },
   {
-    id: 'wiro-binding',
-    title: 'WIRO BINDING',
-    description: 'Professional wiro binding services',
-    image: serviceBinding,
+    id: 'spiral-binding',
+    title: 'SPIRAL BINDING',
+    description: 'Professional spiral binding services',
+    image: spiralBindingImage,
     category: 'binding',
     features: ['Durable Binding', 'Professional Finish', 'Various Sizes']
   },
@@ -159,7 +160,7 @@ const services = [
     id: 'electric-bills',
     title: 'K-ELECTRIC DUPLICATE BILLS',
     description: 'Duplicate utility bill services',
-    image: serviceLegal,
+    image: keDuplicateBillsImage,
     category: 'utility',
     features: ['Official Format', 'Quick Service', 'All Utilities']
   }
@@ -412,7 +413,7 @@ const ServicesSection = () => {
                 </li>
                 <li className="flex items-start space-x-3 text-text-secondary">
                   <div className="w-2 h-2 bg-success rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Wiro & Comb Binding</span>
+                  <span>Spiral & Comb Binding</span>
                 </li>
                 <li className="flex items-start space-x-3 text-text-secondary">
                   <div className="w-2 h-2 bg-success rounded-full mt-2 flex-shrink-0"></div>

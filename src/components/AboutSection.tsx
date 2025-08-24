@@ -72,7 +72,7 @@ const AboutSection = () => {
             GALLERY
           </h3>
           
-          <div className="grid grid-cols-3 gap-4 mb-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 gap-4 mb-8 max-w-2xl mx-auto">
             {/* First Row */}
             <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
               <img
@@ -100,19 +100,6 @@ const AboutSection = () => {
               </div>
             </div>
             
-            <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
-              <img
-                src="/lovable-uploads/c7f96094-d0d8-4ba7-a91a-c6e209e31e57.png"
-                alt="Office Workspace"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <span className="text-white font-semibold text-sm">
-                  Equipment Setup
-                </span>
-              </div>
-            </div>
-            
             {/* Second Row */}
             <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
               <img
@@ -123,19 +110,6 @@ const AboutSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                 <span className="text-white font-semibold text-sm">
                   Storefront
-                </span>
-              </div>
-            </div>
-            
-            <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
-              <img
-                src="/lovable-uploads/c6c64ed7-5a98-439b-968e-f521cc812405.png"
-                alt="Office Exterior 2"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <span className="text-white font-semibold text-sm">
-                  Service Center
                 </span>
               </div>
             </div>

@@ -1,12 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Image as ImageIcon, MapPin, Clock, Shield } from 'lucide-react';
 import servicesGallery from '@/assets/services-gallery.jpg';
-import officeInterior1 from '/lovable-uploads/office-interior-1.png';
-import officeInterior2 from '/lovable-uploads/office-interior-2.png';
-import officeWorkspace from '/lovable-uploads/office-workspace.png';
-import officeExterior1 from '/lovable-uploads/office-exterior-1.png';
-import officeExterior2 from '/lovable-uploads/office-exterior-2.png';
-import officeEquipment from '/lovable-uploads/office-equipment.png';
 
 const AboutSection = () => {
   return (
@@ -82,7 +76,7 @@ const AboutSection = () => {
             {/* First Row */}
             <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
               <img
-                src={officeInterior1}
+                src="/lovable-uploads/10501ec6-37ae-4b44-83c1-cf2404e605e3.png"
                 alt="Office Interior 1"
                 className="w-full h-full object-cover"
               />
@@ -95,7 +89,7 @@ const AboutSection = () => {
             
             <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
               <img
-                src={officeInterior2}
+                src="/lovable-uploads/b3ddbf1a-f3c4-4d49-a73c-cd5356724007.png"
                 alt="Office Interior 2"
                 className="w-full h-full object-cover"
               />
@@ -108,7 +102,7 @@ const AboutSection = () => {
             
             <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
               <img
-                src={officeWorkspace}
+                src="/lovable-uploads/c7f96094-d0d8-4ba7-a91a-c6e209e31e57.png"
                 alt="Office Workspace"
                 className="w-full h-full object-cover"
               />
@@ -122,7 +116,7 @@ const AboutSection = () => {
             {/* Second Row */}
             <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
               <img
-                src={officeExterior1}
+                src="/lovable-uploads/8026de21-bd0c-4c2c-b930-d29142490a80.png"
                 alt="Office Exterior 1"
                 className="w-full h-full object-cover"
               />
@@ -135,7 +129,7 @@ const AboutSection = () => {
             
             <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
               <img
-                src={officeExterior2}
+                src="/lovable-uploads/c6c64ed7-5a98-439b-968e-f521cc812405.png"
                 alt="Office Exterior 2"
                 className="w-full h-full object-cover"
               />
@@ -148,7 +142,7 @@ const AboutSection = () => {
             
             <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
               <img
-                src={officeEquipment}
+                src="/lovable-uploads/6abc2d74-a371-488b-aa86-6d413f2e64f0.png"
                 alt="Office Equipment"
                 className="w-full h-full object-cover"
               />

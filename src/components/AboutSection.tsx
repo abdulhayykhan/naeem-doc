@@ -1,6 +1,12 @@
 import { Button } from '@/components/ui/button';
-import { Play, Image, MapPin, Clock, Shield } from 'lucide-react';
+import { Image as ImageIcon, MapPin, Clock, Shield } from 'lucide-react';
 import servicesGallery from '@/assets/services-gallery.jpg';
+import officeInterior1 from '/lovable-uploads/office-interior-1.png';
+import officeInterior2 from '/lovable-uploads/office-interior-2.png';
+import officeWorkspace from '/lovable-uploads/office-workspace.png';
+import officeExterior1 from '/lovable-uploads/office-exterior-1.png';
+import officeExterior2 from '/lovable-uploads/office-exterior-2.png';
+import officeEquipment from '/lovable-uploads/office-equipment.png';
 
 const AboutSection = () => {
   return (
@@ -72,37 +78,92 @@ const AboutSection = () => {
             GALLERY
           </h3>
           
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-8">
-            {/* Gallery Placeholders */}
-            {[1, 2, 3, 4].map((item) => (
-              <div
-                key={item}
-                className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300"
-              >
-                <div className="w-full h-full bg-gradient-surface flex items-center justify-center">
-                  {item === 2 ? (
-                    <Play className="w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 text-primary" />
-                  ) : (
-                    <Image className="w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 text-text-muted" />
-                  )}
-                </div>
-                <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <span className="text-white font-semibold text-xs sm:text-sm">
-                    {item === 2 ? 'Video' : 'Photo'}
-                  </span>
-                </div>
+          <div className="grid grid-cols-3 gap-4 mb-8 max-w-4xl mx-auto">
+            {/* First Row */}
+            <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
+              <img
+                src={officeInterior1}
+                alt="Office Interior 1"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <span className="text-white font-semibold text-sm">
+                  Office Interior
+                </span>
               </div>
-            ))}
+            </div>
+            
+            <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
+              <img
+                src={officeInterior2}
+                alt="Office Interior 2"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <span className="text-white font-semibold text-sm">
+                  Workspace
+                </span>
+              </div>
+            </div>
+            
+            <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
+              <img
+                src={officeWorkspace}
+                alt="Office Workspace"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <span className="text-white font-semibold text-sm">
+                  Equipment Setup
+                </span>
+              </div>
+            </div>
+            
+            {/* Second Row */}
+            <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
+              <img
+                src={officeExterior1}
+                alt="Office Exterior 1"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <span className="text-white font-semibold text-sm">
+                  Storefront
+                </span>
+              </div>
+            </div>
+            
+            <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
+              <img
+                src={officeExterior2}
+                alt="Office Exterior 2"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <span className="text-white font-semibold text-sm">
+                  Service Center
+                </span>
+              </div>
+            </div>
+            
+            <div className="relative group aspect-square bg-surface rounded-lg overflow-hidden cursor-pointer hover:shadow-primary transition-all duration-300">
+              <img
+                src={officeEquipment}
+                alt="Office Equipment"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <span className="text-white font-semibold text-sm">
+                  Professional Equipment
+                </span>
+              </div>
+            </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-              <Image className="w-4 h-4 mr-2" />
+              <ImageIcon className="w-4 h-4 mr-2" />
               View More Photos
-            </Button>
-            <Button variant="outline" className="border-accent text-accent hover:bg-accent hover:text-accent-foreground">
-              <Play className="w-4 h-4 mr-2" />
-              Watch Videos
             </Button>
           </div>
         </div>

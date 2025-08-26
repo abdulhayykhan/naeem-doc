@@ -199,27 +199,6 @@ const ContactSection = () => {
               </div>
             </div>
 
-            {/* Social Media */}
-            <div className="bg-card rounded-xl p-8 shadow-card border border-border/50">
-              <h3 className="text-xl font-bold text-text-primary mb-4">
-                Follow Us
-              </h3>
-              
-              <div className="flex space-x-4">
-                <button className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary/20 transition-colors">
-                  <Facebook className="w-6 h-6 text-primary" />
-                </button>
-                <button 
-                  onClick={handleWhatsApp}
-                  className="w-12 h-12 bg-success/10 rounded-lg flex items-center justify-center hover:bg-success/20 transition-colors"
-                >
-                  <MessageSquare className="w-6 h-6 text-success" />
-                </button>
-                <button className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center hover:bg-accent/20 transition-colors">
-                  <Send className="w-6 h-6 text-accent" />
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       </div>

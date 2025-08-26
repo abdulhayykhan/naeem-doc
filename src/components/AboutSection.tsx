@@ -155,16 +155,16 @@ const AboutSection = () => {
 
         {/* Lightbox Modal */}
         <Dialog open={isLightboxOpen} onOpenChange={setIsLightboxOpen}>
-          <DialogContent className="max-w-5xl w-full h-[90vh] p-0 bg-background/95 backdrop-blur-sm">
+          <DialogContent className="max-w-6xl w-[95vw] h-[85vh] p-0 bg-background/95 backdrop-blur-sm border border-border/50">
             <div className="relative w-full h-full flex items-center justify-center">
               {/* Close Button */}
               <Button
                 onClick={closeLightbox}
                 variant="ghost"
                 size="icon"
-                className="absolute top-4 right-4 z-10 bg-background/80 hover:bg-background"
+                className="absolute top-4 right-4 z-20 bg-background/90 hover:bg-background border border-border/50 shadow-lg"
               >
-                <X className="w-6 h-6" />
+                <X className="w-5 h-5" />
               </Button>
 
               {/* Navigation Buttons */}
@@ -172,23 +172,23 @@ const AboutSection = () => {
                 onClick={() => navigateImage('prev')}
                 variant="ghost"
                 size="icon"
-                className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-background/80 hover:bg-background"
+                className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-background/90 hover:bg-background border border-border/50 shadow-lg"
               >
-                <ChevronLeft className="w-6 h-6" />
+                <ChevronLeft className="w-5 h-5" />
               </Button>
 
               <Button
                 onClick={() => navigateImage('next')}
                 variant="ghost"
                 size="icon"
-                className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-background/80 hover:bg-background"
+                className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-background/90 hover:bg-background border border-border/50 shadow-lg"
               >
-                <ChevronRight className="w-6 h-6" />
+                <ChevronRight className="w-5 h-5" />
               </Button>
 
               {/* Image Display */}
               {selectedImage !== null && (
-                <div className="w-full h-full flex items-center justify-center p-8">
+                <div className="w-full h-full flex items-center justify-center p-16">
                   <img
                     src={galleryImages[selectedImage].src}
                     alt={galleryImages[selectedImage].alt}
@@ -197,9 +197,18 @@ const AboutSection = () => {
                 </div>
               )}
 
+              {/* Image Title */}
+              {selectedImage !== null && (
+                <div className="absolute top-4 left-4 bg-background/90 backdrop-blur-sm rounded-lg px-4 py-2 border border-border/50">
+                  <span className="text-text-primary text-sm font-medium">
+                    {galleryImages[selectedImage].title}
+                  </span>
+                </div>
+              )}
+
               {/* Image Counter */}
               {selectedImage !== null && (
-                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-background/80 backdrop-blur-sm rounded-lg px-4 py-2">
+                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-background/90 backdrop-blur-sm rounded-lg px-4 py-2 border border-border/50 shadow-lg">
                   <span className="text-text-primary text-sm font-medium">
                     {selectedImage + 1} of {galleryImages.length}
                   </span>

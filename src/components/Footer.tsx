@@ -28,19 +28,21 @@ const Footer = () => {
               with excellence for over 5 years with state-of-the-art equipment and 24/7 power backup.
             </p>
 
-            {/* Social Media */}
+            {/* Action Buttons */}
             <div className="flex space-x-4">
-              <button className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary/20 transition-colors">
-                <Facebook className="w-5 h-5 text-primary" />
+              <button 
+                onClick={() => window.open('tel:+923158157721', '_self')}
+                className="flex items-center space-x-2 px-4 py-2 bg-accent/10 text-accent border border-accent/20 rounded-lg hover:bg-accent/20 transition-colors"
+              >
+                <Phone className="w-4 h-4" />
+                <span className="text-sm font-medium">Call Now</span>
               </button>
               <button 
-                onClick={handleWhatsApp}
-                className="w-10 h-10 bg-success/10 rounded-lg flex items-center justify-center hover:bg-success/20 transition-colors"
+                onClick={() => window.open('mailto:naeemdocumentation@gmail.com', '_self')}
+                className="flex items-center space-x-2 px-4 py-2 bg-success/10 text-success border border-success/20 rounded-lg hover:bg-success/20 transition-colors"
               >
-                <MessageSquare className="w-5 h-5 text-success" />
-              </button>
-              <button className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center hover:bg-accent/20 transition-colors">
-                <Send className="w-5 h-5 text-accent" />
+                <Mail className="w-4 h-4" />
+                <span className="text-sm font-medium">Send Email</span>
               </button>
             </div>
           </div>

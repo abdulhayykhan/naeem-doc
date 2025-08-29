@@ -45,56 +45,57 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Contact Information */}
-          <div className="space-y-8">
-            <div className="bg-card rounded-xl p-8 shadow-card border border-border/50">
-              <h3 className="text-2xl font-bold text-text-primary mb-6 flex items-center">
-                <MapPin className="w-6 h-6 text-primary mr-3" />
+          <div className="space-y-6 lg:space-y-8">
+            <div className="bg-card rounded-xl p-6 sm:p-8 shadow-card border border-border/50">
+              <h3 className="text-xl sm:text-2xl font-bold text-text-primary mb-4 sm:mb-6 flex items-center">
+                <MapPin className="w-5 sm:w-6 h-5 sm:h-6 text-primary mr-2 sm:mr-3" />
                 Visit Our Shop
               </h3>
               
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-primary" />
+              <div className="space-y-4 sm:space-y-6">
+                <div className="flex items-start space-x-3 sm:space-x-4">
+                  <div className="w-10 sm:w-12 h-10 sm:h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-5 sm:w-6 h-5 sm:h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-text-primary mb-1">Address</h4>
-                    <p className="text-text-secondary">
-                      Plot No. 3/31-A, Near Red Oven Restaurant,<br />
-                      Shah Faisal Colony No. 3, Karachi-75230, Pakistan
+                    <h4 className="font-semibold text-text-primary mb-1 text-sm sm:text-base">Address</h4>
+                    <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
+                      Plot No. 3/31-A, Near Red Oven Restaurant,<br className="hidden sm:block" />
+                      <span className="sm:hidden"> </span>Shah Faisal Colony No. 3,<br className="hidden sm:block" />
+                      <span className="sm:hidden"> </span>Karachi-75230, Pakistan
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-6 h-6 text-accent" />
+                <div className="flex items-start space-x-3 sm:space-x-4">
+                  <div className="w-10 sm:w-12 h-10 sm:h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-5 sm:w-6 h-5 sm:h-6 text-accent" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-text-primary mb-1">Phone</h4>
-                    <p className="text-text-secondary">0315-8157721</p>
+                    <h4 className="font-semibold text-text-primary mb-1 text-sm sm:text-base">Phone</h4>
+                    <p className="text-text-secondary text-sm sm:text-base">0315-8157721</p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-success/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Mail className="w-6 h-6 text-success" />
+                <div className="flex items-start space-x-3 sm:space-x-4">
+                  <div className="w-10 sm:w-12 h-10 sm:h-12 bg-success/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Mail className="w-5 sm:w-6 h-5 sm:h-6 text-success" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-text-primary mb-1">Email</h4>
-                    <p className="text-text-secondary">naeemdocumentation@gmail.com</p>
+                    <h4 className="font-semibold text-text-primary mb-1 text-sm sm:text-base">Email</h4>
+                    <p className="text-text-secondary text-sm sm:text-base break-all sm:break-normal">naeemdocumentation@gmail.com</p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Clock className="w-6 h-6 text-primary" />
+                <div className="flex items-start space-x-3 sm:space-x-4">
+                  <div className="w-10 sm:w-12 h-10 sm:h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Clock className="w-5 sm:w-6 h-5 sm:h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-text-primary mb-1">Working Hours</h4>
-                    <p className="text-text-secondary">
+                    <h4 className="font-semibold text-text-primary mb-1 text-sm sm:text-base">Working Hours</h4>
+                    <p className="text-text-secondary text-sm sm:text-base">
                       Monday to Sunday<br />
                       08:00 AM - 02:00 AM
                     </p>
@@ -104,13 +105,13 @@ const ContactSection = () => {
             </div>
 
             {/* Google Maps */}
-            <div className="bg-card rounded-xl p-8 shadow-card border border-border/50">
-              <h3 className="text-2xl font-bold text-text-primary mb-6 flex items-center">
-                <MapPin className="w-6 h-6 text-primary mr-3" />
+            <div className="bg-card rounded-xl p-4 sm:p-6 lg:p-8 shadow-card border border-border/50">
+              <h3 className="text-xl sm:text-2xl font-bold text-text-primary mb-4 sm:mb-6 flex items-center">
+                <MapPin className="w-5 sm:w-6 h-5 sm:h-6 text-primary mr-2 sm:mr-3" />
                 Find Us on Map
               </h3>
               
-              <div className="w-full h-64 sm:h-80 rounded-lg overflow-hidden border border-border/50">
+              <div className="w-full h-48 sm:h-64 lg:h-80 rounded-lg overflow-hidden border border-border/50">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6297.575261013936!2d67.14465256109168!3d24.882733191096577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339006bf92d2b%3A0x73be5bc29adbb61c!2sNaeem%20Documentation!5e0!3m2!1sen!2sus!4v1755570279076!5m2!1sen!2sus"
                   width="100%"
@@ -125,10 +126,10 @@ const ContactSection = () => {
             </div>
 
             {/* Action Buttons */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-4">
               <Button 
                 onClick={handlePhoneCall}
-                className="bg-gradient-primary hover:opacity-90 shadow-primary h-12 sm:h-14 text-base sm:text-lg"
+                className="bg-gradient-primary hover:opacity-90 shadow-primary h-11 sm:h-12 lg:h-14 text-sm sm:text-base lg:text-lg"
               >
                 <Phone className="w-4 sm:w-5 h-4 sm:h-5 mr-2" />
                 Call Now
@@ -137,7 +138,7 @@ const ContactSection = () => {
               <Button 
                 onClick={handleEmail}
                 variant="outline"
-                className="border-accent text-accent hover:bg-accent hover:text-accent-foreground h-12 sm:h-14 text-base sm:text-lg"
+                className="border-accent text-accent hover:bg-accent hover:text-accent-foreground h-11 sm:h-12 lg:h-14 text-sm sm:text-base lg:text-lg"
               >
                 <Mail className="w-4 sm:w-5 h-4 sm:h-5 mr-2" />
                 Send Email
@@ -146,16 +147,16 @@ const ContactSection = () => {
           </div>
 
           {/* Quick Contact Form & Social */}
-          <div className="space-y-8">
-            <div className="bg-card rounded-xl p-8 shadow-card border border-border/50">
-              <h3 className="text-2xl font-bold text-text-primary mb-6">
+          <div className="space-y-6 lg:space-y-8">
+            <div className="bg-card rounded-xl p-6 sm:p-8 shadow-card border border-border/50">
+              <h3 className="text-xl sm:text-2xl font-bold text-text-primary mb-4 sm:mb-6">
                 Get Quick Quote
               </h3>
               
               <div className="space-y-4">
-                <div className="p-4 bg-surface rounded-lg border border-border/50">
-                  <h4 className="font-semibold text-text-primary mb-2">Popular Services</h4>
-                  <div className="space-y-2 text-sm text-text-secondary">
+                <div className="p-4 sm:p-5 bg-surface rounded-lg border border-border/50">
+                  <h4 className="font-semibold text-text-primary mb-2 text-sm sm:text-base">Popular Services</h4>
+                  <div className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm text-text-secondary">
                     <div>• Document Printing & Binding</div>
                     <div>• NADRA Services & ID Cards</div>
                     <div>• Legal Documentation</div>
@@ -174,27 +175,27 @@ const ContactSection = () => {
             </div>
 
             {/* Business Features */}
-            <div className="bg-card rounded-xl p-8 shadow-card border border-border/50">
-              <h3 className="text-xl font-bold text-text-primary mb-4">
+            <div className="bg-card rounded-xl p-6 sm:p-8 shadow-card border border-border/50">
+              <h3 className="text-lg sm:text-xl font-bold text-text-primary mb-3 sm:mb-4">
                 Why Choose Us?
               </h3>
               
-              <div className="space-y-3">
+              <div className="space-y-2.5 sm:space-y-3">
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span className="text-text-secondary">24/7 Power Backup (No Extra Cost)</span>
+                  <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
+                  <span className="text-text-secondary text-sm sm:text-base">24/7 Power Backup (No Extra Cost)</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span className="text-text-secondary">State-of-the-art Equipment</span>
+                  <div className="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                  <span className="text-text-secondary text-sm sm:text-base">State-of-the-art Equipment</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-success rounded-full"></div>
-                  <span className="text-text-secondary">Experienced Professionals</span>
+                  <div className="w-2 h-2 bg-success rounded-full flex-shrink-0"></div>
+                  <span className="text-text-secondary text-sm sm:text-base">Experienced Professionals</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span className="text-text-secondary">Competitive Pricing</span>
+                  <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
+                  <span className="text-text-secondary text-sm sm:text-base">Competitive Pricing</span>
                 </div>
               </div>
             </div>

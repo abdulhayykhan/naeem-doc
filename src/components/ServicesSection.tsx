@@ -31,8 +31,8 @@ import pvcCardsImage from '/lovable-uploads/4b7cd75f-c8b8-4f27-9de5-59e60349556b
 import a3PrintingImage from '/lovable-uploads/a054be9b-549c-427c-8ef9-d55a47f2f1d0.png';
 import affidavitsImage from '/lovable-uploads/d60e055b-c781-44c4-ab7a-da1407710f24.png';
 import agreementsImage from '/lovable-uploads/ae3ead03-70eb-4e3c-990d-9d2e7fe8c98b.png';
-import birthCertificateImage from '/lovable-uploads/a6500161-63ed-413b-ad8b-dc9da639b14e.png';
-import nikahNamaImage from '/lovable-uploads/781d2197-dd90-40a5-ae46-4392635fd16a.png';
+import birthCertificateImage from '@/assets/birth-certificate.jpg';
+import nikahNamaImage from '@/assets/nikah-nama.jpg';
 import keDuplicateBillsImage from '/lovable-uploads/ke-duplicate-bills.png';
 
 const services = [

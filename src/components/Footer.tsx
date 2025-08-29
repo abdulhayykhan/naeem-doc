@@ -25,7 +25,7 @@ const Footer = () => {
             
             <p className="text-text-secondary mb-4 sm:mb-6 max-w-md text-sm sm:text-base">
               Your trusted partner for all documentation and printing needs. Serving Karachi 
-              with excellence for over 5 years with state-of-the-art equipment and 24/7 power backup.
+              with excellence for over 15 years with state-of-the-art equipment and 24/7 power backup.
             </p>
 
             {/* Action Buttons */}

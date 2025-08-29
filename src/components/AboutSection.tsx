@@ -155,14 +155,14 @@ const AboutSection = () => {
 
         {/* Lightbox Modal */}
         <Dialog open={isLightboxOpen} onOpenChange={setIsLightboxOpen}>
-          <DialogContent className="max-w-6xl w-[95vw] h-[85vh] p-0 bg-background/95 backdrop-blur-sm border border-border/50">
-            <div className="relative w-full h-full flex items-center justify-center">
+          <DialogContent className="max-w-7xl w-[90vw] h-[90vh] p-0 bg-background border-0">
+            <div className="relative w-full h-full flex items-center justify-center bg-background/95 rounded-lg">
               {/* Close Button */}
               <Button
                 onClick={closeLightbox}
                 variant="ghost"
                 size="icon"
-                className="absolute top-4 right-4 z-20 bg-background/90 hover:bg-background border border-border/50 shadow-lg"
+                className="absolute top-3 right-3 z-30 h-10 w-10 bg-surface/80 hover:bg-surface text-text-primary border border-border"
               >
                 <X className="w-5 h-5" />
               </Button>
@@ -172,34 +172,34 @@ const AboutSection = () => {
                 onClick={() => navigateImage('prev')}
                 variant="ghost"
                 size="icon"
-                className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-background/90 hover:bg-background border border-border/50 shadow-lg"
+                className="absolute left-4 top-1/2 -translate-y-1/2 z-30 h-12 w-12 bg-surface/80 hover:bg-surface text-text-primary border border-border"
               >
-                <ChevronLeft className="w-5 h-5" />
+                <ChevronLeft className="w-6 h-6" />
               </Button>
 
               <Button
                 onClick={() => navigateImage('next')}
                 variant="ghost"
                 size="icon"
-                className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-background/90 hover:bg-background border border-border/50 shadow-lg"
+                className="absolute right-4 top-1/2 -translate-y-1/2 z-30 h-12 w-12 bg-surface/80 hover:bg-surface text-text-primary border border-border"
               >
-                <ChevronRight className="w-5 h-5" />
+                <ChevronRight className="w-6 h-6" />
               </Button>
 
               {/* Image Display */}
               {selectedImage !== null && (
-                <div className="w-full h-full flex items-center justify-center p-16">
+                <div className="flex items-center justify-center w-full h-full p-20">
                   <img
                     src={galleryImages[selectedImage].src}
                     alt={galleryImages[selectedImage].alt}
-                    className="max-w-full max-h-full object-contain rounded-lg shadow-elegant animate-scale-in"
+                    className="max-w-full max-h-full object-contain rounded-lg shadow-2xl"
                   />
                 </div>
               )}
 
               {/* Image Title */}
               {selectedImage !== null && (
-                <div className="absolute top-4 left-4 bg-background/90 backdrop-blur-sm rounded-lg px-4 py-2 border border-border/50">
+                <div className="absolute top-3 left-3 bg-surface/90 backdrop-blur-sm rounded-lg px-3 py-2 border border-border">
                   <span className="text-text-primary text-sm font-medium">
                     {galleryImages[selectedImage].title}
                   </span>
@@ -208,7 +208,7 @@ const AboutSection = () => {
 
               {/* Image Counter */}
               {selectedImage !== null && (
-                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-background/90 backdrop-blur-sm rounded-lg px-4 py-2 border border-border/50 shadow-lg">
+                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-surface/90 backdrop-blur-sm rounded-lg px-4 py-2 border border-border">
                   <span className="text-text-primary text-sm font-medium">
                     {selectedImage + 1} of {galleryImages.length}
                   </span>
